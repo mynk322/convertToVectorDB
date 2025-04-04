@@ -1,0 +1,8 @@
+2025-04-05 01:03:21,499 - INFO - __main__ - Loading embedding model: all-MiniLM-L6-v2
+2025-04-05 01:03:21,551 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: mps
+2025-04-05 01:03:21,551 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 01:03:43,214 - INFO - __main__ - Starting conversion of https://github.com/mynk322/ContextCoach to vector database
+2025-04-05 01:03:43,215 - INFO - __main__ - Checking connection to vector database API at http://localhost:8000/api
+2025-04-05 01:03:43,217 - ERROR - __main__ - Error connecting to vector database API: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/stats (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1234127b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-05 01:03:43,217 - ERROR - __main__ - Cannot proceed without vector database API connection
+2025-04-05 01:03:43,217 - ERROR - __main__ - Failed to convert repository to vector database
