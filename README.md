@@ -19,16 +19,56 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the script with the following command:
+You can use the system in two ways:
+
+### 1. Using the Wrapper Script (Recommended)
+
+The wrapper script provides a simple interface to run all the components with consistent configuration:
 
 ```bash
-python repo_to_vector.py --repo-url <github_repo_url> --api-url <vector_db_api_url>
+# Start the vector database server
+python run_vector_db.py start
+
+# Convert a GitHub repository to vector database
+python run_vector_db.py convert --repo-url <github_repo_url>
+
+# Query the vector database
+python run_vector_db.py query --query "your search query"
+
+# Show database statistics
+python run_vector_db.py stats
+
+# Run the full demo
+python run_vector_db.py demo --repo-url <github_repo_url> --query "your search query"
+```
+
+### 2. Using Individual Scripts
+
+Alternatively, you can run each component separately:
+
+```bash
+# Start the mock vector database API server
+python mock_vector_db_api.py --host 127.0.0.1 --port 5000
+
+# Convert a GitHub repository to vector database
+python repo_to_vector.py --repo-url <github_repo_url> --api-url http://127.0.0.1:5000
+
+# Query the vector database
+python query_vector_db.py --query "your search query" --api-url http://127.0.0.1:5000
+```
+
+### 3. Using the Demo Script
+
+You can also run the full demo with a single command:
+
+```bash
+./demo.sh --repo-url <github_repo_url> --query "your search query"
 ```
 
 ### Required Arguments
 
 - `--repo-url`: URL of the GitHub repository to convert
-- `--api-url`: URL of your local vector database API endpoint
+- `--api-url`: URL of your local vector database API endpoint (default: http://127.0.0.1:5000)
 
 ### Optional Arguments
 
@@ -36,11 +76,20 @@ python repo_to_vector.py --repo-url <github_repo_url> --api-url <vector_db_api_u
 - `--chunk-size`: Size of text chunks for processing (default: 1000)
 - `--output-dir`: Directory to store temporary data (default: "repo_data")
 - `--extensions`: List of file extensions to process (default: common code file extensions)
+- `--port`: Port for the mock API server (default: 5000)
+- `--host`: Host for the mock API server (default: 127.0.0.1)
+- `--debug`: Enable debug mode for more detailed logging
+- `--verbose`: Enable verbose output
 
 ## Example
 
 ```bash
-python repo_to_vector.py --repo-url https://github.com/username/repository --api-url http://localhost:8000/api
+# Using the wrapper script
+python run_vector_db.py demo --repo-url https://github.com/username/repository --query "search query"
+
+# Using individual scripts
+python repo_to_vector.py --repo-url https://github.com/username/repository --api-url http://127.0.0.1:5000
+python query_vector_db.py --query "search query" --api-url http://127.0.0.1:5000
 ```
 
 ## How It Works
