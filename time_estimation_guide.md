@@ -70,9 +70,9 @@ import sys
 import requests
 from pathlib import Path
 
-# Replace with your preferred LLM API
-LLM_API_URL = "https://api.openai.com/v1/chat/completions"
-LLM_API_KEY = os.environ.get("OPENAI_API_KEY")
+# Rabbithole API configuration
+LLM_API_URL = "https://api.rabbithole.cred.club/v1/chat/completions"
+LLM_API_KEY = os.environ.get("RABBITHOLE_API_KEY", "sk-E26rh594RiFea2Wz2dORaQ")
 
 def read_function_doc(file_path):
     """Read the function documentation from a file."""
@@ -84,7 +84,7 @@ def read_vector_results(file_path):
     with open(file_path, 'r') as f:
         return f.read()
 
-def generate_time_estimate(function_doc, vector_results):
+def generate_time_estimate(function_doc, vector_results, model="rabbit-7b"):
     """Generate time estimate using an LLM."""
     
     # Create the prompt for the LLM
@@ -134,14 +134,14 @@ Format your response as JSON with the following structure:
 }}
 """
 
-    # Call the LLM API
+    # Call the Rabbithole API
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {LLM_API_KEY}"
     }
     
     payload = {
-        "model": "gpt-4",  # or your preferred model
+        "model": model,
         "messages": [
             {"role": "system", "content": "You are an expert software developer specializing in time estimation."},
             {"role": "user", "content": prompt}
@@ -214,15 +214,26 @@ def main():
     parser.add_argument("--function-doc", required=True, help="Path to function documentation file")
     parser.add_argument("--vector-results", required=True, help="Path to vector database results file")
     parser.add_argument("--output", help="Path to output file (default: stdout)")
+    parser.add_argument("--api-key", help="Rabbithole API key (default: RABBITHOLE_API_KEY environment variable or built-in key)")
+    parser.add_argument("--model", default="rabbit-7b", help="LLM model to use (default: rabbit-7b)")
     
     args = parser.parse_args()
+    
+    # Set API key
+    global LLM_API_KEY
+    if args.api_key:
+        LLM_API_KEY = args.api_key
+    
+    if not LLM_API_KEY:
+        print("Error: No API key provided. Set RABBITHOLE_API_KEY environment variable or use --api-key")
+        return 1
     
     # Read inputs
     function_doc = read_function_doc(args.function_doc)
     vector_results = read_vector_results(args.vector_results)
     
     # Generate estimate
-    estimate_json = generate_time_estimate(function_doc, vector_results)
+    estimate_json = generate_time_estimate(function_doc, vector_results, args.model)
     if not estimate_json:
         print("Failed to generate time estimate")
         return 1
