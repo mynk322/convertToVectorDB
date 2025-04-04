@@ -1,0 +1,81 @@
+2025-04-05 01:16:32,920 - INFO - __main__ - Starting query: 'your search query'
+2025-04-05 01:16:32,920 - INFO - __main__ - Checking connection to vector database API at http://127.0.0.1:5000
+2025-04-05 01:16:32,926 - INFO - __main__ - Successfully connected to vector database API at http://127.0.0.1:5000/stats
+2025-04-05 01:16:32,926 - INFO - __main__ - Database contains 343 documents
+2025-04-05 01:16:32,926 - INFO - __main__ - Loading model: all-MiniLM-L6-v2
+2025-04-05 01:16:32,937 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: mps
+2025-04-05 01:16:32,937 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 01:16:36,211 - INFO - __main__ - Model loaded in 3.28 seconds
+2025-04-05 01:16:36,621 - INFO - __main__ - Query embedding generated in 0.41 seconds
+2025-04-05 01:16:36,621 - INFO - __main__ - Querying vector database at http://127.0.0.1:5000
+2025-04-05 01:16:36,625 - INFO - __main__ - Found 5 results in 0.00 seconds
+2025-04-05 01:16:36,625 - INFO - __main__ - Average similarity score: 0.2974
+2025-04-05 01:16:36,625 - INFO - __main__ - Results come from 3 unique files
+2025-04-05 01:16:36,625 - INFO - __main__ - Query completed in 3.70 seconds
+2025-04-05 01:16:36,625 - INFO - __main__ - Displaying 5 results
+2025-04-05 01:25:56,150 - INFO - __main__ - Verbose logging enabled
+2025-04-05 01:25:56,150 - INFO - __main__ - Starting query: 'your search query'
+2025-04-05 01:25:56,150 - INFO - __main__ - Checking connection to vector database API at http://127.0.0.1:5000
+2025-04-05 01:25:56,150 - DEBUG - __main__ - Trying to connect to: http://127.0.0.1:5000/stats
+2025-04-05 01:25:56,155 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-04-05 01:25:56,158 - DEBUG - urllib3.connectionpool - http://127.0.0.1:5000 "GET /stats HTTP/1.1" 200 325
+2025-04-05 01:25:56,158 - INFO - __main__ - Successfully connected to vector database API at http://127.0.0.1:5000/stats
+2025-04-05 01:25:56,158 - INFO - __main__ - Database contains 6929 documents
+2025-04-05 01:25:56,158 - INFO - __main__ - Loading model: all-MiniLM-L6-v2
+2025-04-05 01:25:56,175 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: mps
+2025-04-05 01:25:56,175 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 01:25:56,176 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 01:25:56,534 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-05 01:25:56,851 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-04-05 01:25:57,147 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-04-05 01:25:57,414 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-05 01:25:57,762 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-04-05 01:25:58,012 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-04-05 01:25:58,254 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-05 01:25:58,988 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-05 01:25:59,299 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6759
+2025-04-05 01:25:59,605 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6759
+2025-04-05 01:25:59,916 - INFO - __main__ - Model loaded in 3.76 seconds
+2025-04-05 01:26:00,032 - INFO - __main__ - Query embedding generated in 0.12 seconds
+2025-04-05 01:26:00,032 - INFO - __main__ - Querying vector database at http://127.0.0.1:5000
+2025-04-05 01:26:00,032 - DEBUG - __main__ - Sending query to: http://127.0.0.1:5000/query
+2025-04-05 01:26:00,033 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-04-05 01:26:00,059 - DEBUG - urllib3.connectionpool - http://127.0.0.1:5000 "POST /query HTTP/1.1" 200 6105
+2025-04-05 01:26:00,059 - INFO - __main__ - Found 5 results in 0.03 seconds
+2025-04-05 01:26:00,059 - INFO - __main__ - Average similarity score: 0.3595
+2025-04-05 01:26:00,059 - INFO - __main__ - Results come from 3 unique files
+2025-04-05 01:26:00,059 - INFO - __main__ - Query completed in 3.91 seconds
+2025-04-05 01:26:00,059 - INFO - __main__ - Displaying 5 results
+2025-04-05 01:33:38,815 - INFO - __main__ - Verbose logging enabled
+2025-04-05 01:33:38,816 - INFO - __main__ - Starting query: 'rate the repo between 0-1 based on code readibility'
+2025-04-05 01:33:38,816 - INFO - __main__ - Checking connection to vector database API at http://127.0.0.1:5000
+2025-04-05 01:33:38,816 - DEBUG - __main__ - Trying to connect to: http://127.0.0.1:5000/stats
+2025-04-05 01:33:38,823 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-04-05 01:33:38,832 - DEBUG - urllib3.connectionpool - http://127.0.0.1:5000 "GET /stats HTTP/1.1" 200 331
+2025-04-05 01:33:38,832 - INFO - __main__ - Successfully connected to vector database API at http://127.0.0.1:5000/stats
+2025-04-05 01:33:38,832 - INFO - __main__ - Database contains 13515 documents
+2025-04-05 01:33:38,832 - INFO - __main__ - Loading model: all-MiniLM-L6-v2
+2025-04-05 01:33:38,850 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: mps
+2025-04-05 01:33:38,850 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 01:33:38,851 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 01:33:39,237 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-05 01:33:39,512 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-04-05 01:33:39,766 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-04-05 01:33:40,018 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-05 01:33:40,286 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-04-05 01:33:40,697 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-04-05 01:33:41,098 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-05 01:33:41,507 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-05 01:33:41,815 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6759
+2025-04-05 01:33:42,115 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6759
+2025-04-05 01:33:42,411 - INFO - __main__ - Model loaded in 3.58 seconds
+2025-04-05 01:33:43,020 - INFO - __main__ - Query embedding generated in 0.61 seconds
+2025-04-05 01:33:43,021 - INFO - __main__ - Querying vector database at http://127.0.0.1:5000
+2025-04-05 01:33:43,021 - DEBUG - __main__ - Sending query to: http://127.0.0.1:5000/query
+2025-04-05 01:33:43,022 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:5000
+2025-04-05 01:33:43,131 - DEBUG - urllib3.connectionpool - http://127.0.0.1:5000 "POST /query HTTP/1.1" 200 6116
+2025-04-05 01:33:43,131 - INFO - __main__ - Found 5 results in 0.11 seconds
+2025-04-05 01:33:43,131 - INFO - __main__ - Average similarity score: 0.3797
+2025-04-05 01:33:43,131 - INFO - __main__ - Results come from 2 unique files
+2025-04-05 01:33:43,131 - INFO - __main__ - Query completed in 4.32 seconds
+2025-04-05 01:33:43,131 - INFO - __main__ - Displaying 5 results

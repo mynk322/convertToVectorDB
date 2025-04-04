@@ -1,0 +1,741 @@
+2025-04-05 01:14:49,302 - INFO - __main__ - No existing database found.
+2025-04-05 01:14:49,302 - INFO - __main__ - Starting mock vector database API server at http://127.0.0.1:5000
+2025-04-05 01:14:49,302 - INFO - __main__ - Loaded 0 documents and 0 embeddings
+2025-04-05 01:14:51,896 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 01:14:51,896 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-05 01:14:52,157 - INFO - __main__ - Stats requested for empty database
+2025-04-05 01:14:52,158 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:14:52] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:16:09,599 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:09] "GET /health HTTP/1.1" 200 -
+2025-04-05 01:16:15,777 - INFO - __main__ - Stats requested for empty database
+2025-04-05 01:16:15,778 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:15] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:16:27,745 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:16:27,771 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.02 seconds
+2025-04-05 01:16:27,771 - INFO - __main__ - Added 100 documents in 0.03 seconds
+2025-04-05 01:16:27,771 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:27] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:16:27,798 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:16:27,800 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743795987.json.bak
+2025-04-05 01:16:27,848 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.05 seconds
+2025-04-05 01:16:27,848 - INFO - __main__ - Added 100 documents in 0.06 seconds
+2025-04-05 01:16:27,848 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:27] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:16:27,871 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:16:27,872 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743795987.json.bak
+2025-04-05 01:16:27,941 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.07 seconds
+2025-04-05 01:16:27,941 - INFO - __main__ - Added 100 documents in 0.08 seconds
+2025-04-05 01:16:27,942 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:27] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:16:27,951 - INFO - __main__ - Received request to add 43 documents
+2025-04-05 01:16:27,953 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743795987.json.bak
+2025-04-05 01:16:28,030 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.08 seconds
+2025-04-05 01:16:28,030 - INFO - __main__ - Added 43 documents in 0.08 seconds
+2025-04-05 01:16:28,030 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:28] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:16:30,751 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:30] "GET /health HTTP/1.1" 200 -
+2025-04-05 01:16:32,925 - INFO - __main__ - Generated stats in 0.00 seconds
+2025-04-05 01:16:32,926 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:32] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:16:36,622 - INFO - __main__ - Calculating similarities for 343 documents
+2025-04-05 01:16:36,624 - INFO - __main__ - Similarity calculation completed in 0.00 seconds
+2025-04-05 01:16:36,624 - INFO - __main__ - Query returned 5 results in 0.00 seconds
+2025-04-05 01:16:36,624 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:16:36] "POST /query HTTP/1.1" 200 -
+2025-04-05 01:20:59,183 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:20:59] "GET /health HTTP/1.1" 200 -
+2025-04-05 01:20:59,188 - INFO - __main__ - Generated stats in 0.00 seconds
+2025-04-05 01:20:59,189 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:20:59] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:21:40,691 - INFO - __main__ - Loaded 343 documents (3.12 MB) in 0.03 seconds
+2025-04-05 01:21:40,692 - INFO - __main__ - Database contains documents with extensions: {'.md': 6, '.java': 322, '.html': 15}
+2025-04-05 01:21:40,692 - INFO - __main__ - Starting mock vector database API server at http://127.0.0.1:5000
+2025-04-05 01:21:40,692 - INFO - __main__ - Loaded 343 documents and 343 embeddings
+2025-04-05 01:21:54,143 - INFO - __main__ - Loaded 343 documents (3.12 MB) in 0.03 seconds
+2025-04-05 01:21:54,143 - INFO - __main__ - Database contains documents with extensions: {'.md': 6, '.java': 322, '.html': 15}
+2025-04-05 01:21:54,143 - INFO - __main__ - Starting mock vector database API server at http://127.0.0.1:5000
+2025-04-05 01:21:54,143 - INFO - __main__ - Loaded 343 documents and 343 embeddings
+2025-04-05 01:21:54,162 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 01:21:54,162 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-05 01:23:11,480 - INFO - __main__ - Loaded 343 documents (3.12 MB) in 0.03 seconds
+2025-04-05 01:23:11,481 - INFO - __main__ - Database contains documents with extensions: {'.md': 6, '.java': 322, '.html': 15}
+2025-04-05 01:23:11,481 - INFO - __main__ - Starting mock vector database API server at http://127.0.0.1:5000
+2025-04-05 01:23:11,481 - INFO - __main__ - Loaded 343 documents and 343 embeddings
+2025-04-05 01:23:11,485 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 01:23:11,485 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-05 01:23:12,330 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:23:12] "GET /health HTTP/1.1" 200 -
+2025-04-05 01:23:14,843 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:23:14] "GET /health HTTP/1.1" 200 -
+2025-04-05 01:23:23,122 - INFO - __main__ - Generated stats in 0.00 seconds
+2025-04-05 01:23:23,122 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:23:23] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:24:56,987 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:56,991 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796496.json.bak
+2025-04-05 01:24:57,089 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.10 seconds
+2025-04-05 01:24:57,089 - INFO - __main__ - Added 100 documents in 0.11 seconds
+2025-04-05 01:24:57,089 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:57,113 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:57,115 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796497.json.bak
+2025-04-05 01:24:57,231 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.12 seconds
+2025-04-05 01:24:57,231 - INFO - __main__ - Added 100 documents in 0.13 seconds
+2025-04-05 01:24:57,231 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:57,252 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:57,254 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796497.json.bak
+2025-04-05 01:24:57,389 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.14 seconds
+2025-04-05 01:24:57,389 - INFO - __main__ - Added 100 documents in 0.14 seconds
+2025-04-05 01:24:57,389 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:57,410 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:57,412 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796497.json.bak
+2025-04-05 01:24:57,572 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.16 seconds
+2025-04-05 01:24:57,572 - INFO - __main__ - Added 100 documents in 0.17 seconds
+2025-04-05 01:24:57,572 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:57,593 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:57,596 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796497.json.bak
+2025-04-05 01:24:57,822 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.23 seconds
+2025-04-05 01:24:57,823 - INFO - __main__ - Added 100 documents in 0.24 seconds
+2025-04-05 01:24:57,823 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:57,861 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:57,864 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796497.json.bak
+2025-04-05 01:24:58,071 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.21 seconds
+2025-04-05 01:24:58,071 - INFO - __main__ - Added 100 documents in 0.23 seconds
+2025-04-05 01:24:58,071 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:58] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:58,092 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:58,095 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796498.json.bak
+2025-04-05 01:24:58,325 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.23 seconds
+2025-04-05 01:24:58,325 - INFO - __main__ - Added 100 documents in 0.24 seconds
+2025-04-05 01:24:58,325 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:58] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:58,346 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:58,350 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796498.json.bak
+2025-04-05 01:24:58,600 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.25 seconds
+2025-04-05 01:24:58,600 - INFO - __main__ - Added 100 documents in 0.26 seconds
+2025-04-05 01:24:58,601 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:58] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:58,623 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:58,627 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796498.json.bak
+2025-04-05 01:24:58,907 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.28 seconds
+2025-04-05 01:24:58,908 - INFO - __main__ - Added 100 documents in 0.29 seconds
+2025-04-05 01:24:58,908 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:58] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:58,930 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:58,934 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796498.json.bak
+2025-04-05 01:24:59,224 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.29 seconds
+2025-04-05 01:24:59,224 - INFO - __main__ - Added 100 documents in 0.30 seconds
+2025-04-05 01:24:59,224 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:59] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:59,246 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:59,252 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796499.json.bak
+2025-04-05 01:24:59,575 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.33 seconds
+2025-04-05 01:24:59,575 - INFO - __main__ - Added 100 documents in 0.34 seconds
+2025-04-05 01:24:59,575 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:59] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:59,597 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:59,601 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796499.json.bak
+2025-04-05 01:24:59,973 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.38 seconds
+2025-04-05 01:24:59,973 - INFO - __main__ - Added 100 documents in 0.38 seconds
+2025-04-05 01:24:59,973 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:24:59] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:24:59,995 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:24:59,999 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796499.json.bak
+2025-04-05 01:25:00,345 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.35 seconds
+2025-04-05 01:25:00,345 - INFO - __main__ - Added 100 documents in 0.36 seconds
+2025-04-05 01:25:00,345 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:00] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:00,369 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:00,373 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796500.json.bak
+2025-04-05 01:25:00,746 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.38 seconds
+2025-04-05 01:25:00,746 - INFO - __main__ - Added 100 documents in 0.39 seconds
+2025-04-05 01:25:00,746 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:00] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:00,768 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:00,773 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796500.json.bak
+2025-04-05 01:25:01,169 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.40 seconds
+2025-04-05 01:25:01,169 - INFO - __main__ - Added 100 documents in 0.41 seconds
+2025-04-05 01:25:01,169 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:01] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:01,190 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:01,196 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796501.json.bak
+2025-04-05 01:25:01,646 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.46 seconds
+2025-04-05 01:25:01,646 - INFO - __main__ - Added 100 documents in 0.46 seconds
+2025-04-05 01:25:01,646 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:01] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:01,667 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:01,672 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796501.json.bak
+2025-04-05 01:25:02,121 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.45 seconds
+2025-04-05 01:25:02,121 - INFO - __main__ - Added 100 documents in 0.46 seconds
+2025-04-05 01:25:02,121 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:02] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:02,143 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:02,148 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796502.json.bak
+2025-04-05 01:25:02,611 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.47 seconds
+2025-04-05 01:25:02,612 - INFO - __main__ - Added 100 documents in 0.48 seconds
+2025-04-05 01:25:02,612 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:02] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:02,633 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:02,639 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796502.json.bak
+2025-04-05 01:25:03,130 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.50 seconds
+2025-04-05 01:25:03,130 - INFO - __main__ - Added 100 documents in 0.51 seconds
+2025-04-05 01:25:03,131 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:03] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:03,152 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:03,158 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796503.json.bak
+2025-04-05 01:25:03,675 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.52 seconds
+2025-04-05 01:25:03,675 - INFO - __main__ - Added 100 documents in 0.53 seconds
+2025-04-05 01:25:03,676 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:03] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:03,697 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:03,703 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796503.json.bak
+2025-04-05 01:25:04,236 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.54 seconds
+2025-04-05 01:25:04,236 - INFO - __main__ - Added 100 documents in 0.55 seconds
+2025-04-05 01:25:04,236 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:04] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:04,259 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:04,264 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796504.json.bak
+2025-04-05 01:25:04,818 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.56 seconds
+2025-04-05 01:25:04,818 - INFO - __main__ - Added 100 documents in 0.57 seconds
+2025-04-05 01:25:04,818 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:04] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:04,839 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:04,847 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796504.json.bak
+2025-04-05 01:25:05,429 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.59 seconds
+2025-04-05 01:25:05,430 - INFO - __main__ - Added 100 documents in 0.60 seconds
+2025-04-05 01:25:05,430 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:05] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:05,453 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:05,465 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796505.json.bak
+2025-04-05 01:25:06,107 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.65 seconds
+2025-04-05 01:25:06,107 - INFO - __main__ - Added 100 documents in 0.66 seconds
+2025-04-05 01:25:06,107 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:06] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:06,131 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:06,138 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796506.json.bak
+2025-04-05 01:25:06,764 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.63 seconds
+2025-04-05 01:25:06,765 - INFO - __main__ - Added 100 documents in 0.64 seconds
+2025-04-05 01:25:06,765 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:06] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:06,786 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:06,793 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796506.json.bak
+2025-04-05 01:25:07,486 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.70 seconds
+2025-04-05 01:25:07,487 - INFO - __main__ - Added 100 documents in 0.71 seconds
+2025-04-05 01:25:07,487 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:07] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:07,510 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:07,518 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796507.json.bak
+2025-04-05 01:25:08,223 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.71 seconds
+2025-04-05 01:25:08,223 - INFO - __main__ - Added 100 documents in 0.72 seconds
+2025-04-05 01:25:08,223 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:08] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:08,252 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:08,265 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796508.json.bak
+2025-04-05 01:25:08,962 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.71 seconds
+2025-04-05 01:25:08,962 - INFO - __main__ - Added 100 documents in 0.72 seconds
+2025-04-05 01:25:08,962 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:08] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:08,984 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:08,991 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796508.json.bak
+2025-04-05 01:25:09,707 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.72 seconds
+2025-04-05 01:25:09,707 - INFO - __main__ - Added 100 documents in 0.73 seconds
+2025-04-05 01:25:09,707 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:09] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:09,729 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:09,739 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796509.json.bak
+2025-04-05 01:25:10,450 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.72 seconds
+2025-04-05 01:25:10,450 - INFO - __main__ - Added 100 documents in 0.73 seconds
+2025-04-05 01:25:10,450 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:10] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:10,471 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:10,479 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796510.json.bak
+2025-04-05 01:25:11,221 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.75 seconds
+2025-04-05 01:25:11,221 - INFO - __main__ - Added 100 documents in 0.76 seconds
+2025-04-05 01:25:11,221 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:11] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:11,242 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:11,253 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796511.json.bak
+2025-04-05 01:25:12,008 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.76 seconds
+2025-04-05 01:25:12,008 - INFO - __main__ - Added 100 documents in 0.77 seconds
+2025-04-05 01:25:12,008 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:12] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:12,032 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:12,039 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796512.json.bak
+2025-04-05 01:25:12,819 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.79 seconds
+2025-04-05 01:25:12,819 - INFO - __main__ - Added 100 documents in 0.80 seconds
+2025-04-05 01:25:12,819 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:12] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:12,846 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:12,854 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796512.json.bak
+2025-04-05 01:25:13,664 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.82 seconds
+2025-04-05 01:25:13,664 - INFO - __main__ - Added 100 documents in 0.82 seconds
+2025-04-05 01:25:13,664 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:13] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:13,686 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:13,694 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796513.json.bak
+2025-04-05 01:25:14,542 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.86 seconds
+2025-04-05 01:25:14,543 - INFO - __main__ - Added 100 documents in 0.86 seconds
+2025-04-05 01:25:14,543 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:14] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:14,565 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:14,580 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796514.json.bak
+2025-04-05 01:25:15,421 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.85 seconds
+2025-04-05 01:25:15,421 - INFO - __main__ - Added 100 documents in 0.86 seconds
+2025-04-05 01:25:15,421 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:15] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:15,442 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:15,459 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796515.json.bak
+2025-04-05 01:25:16,319 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.88 seconds
+2025-04-05 01:25:16,319 - INFO - __main__ - Added 100 documents in 0.88 seconds
+2025-04-05 01:25:16,319 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:16] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:16,341 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:16,350 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796516.json.bak
+2025-04-05 01:25:17,228 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.89 seconds
+2025-04-05 01:25:17,228 - INFO - __main__ - Added 100 documents in 0.89 seconds
+2025-04-05 01:25:17,229 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:17] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:17,250 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:17,264 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796517.json.bak
+2025-04-05 01:25:18,188 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.94 seconds
+2025-04-05 01:25:18,188 - INFO - __main__ - Added 100 documents in 0.95 seconds
+2025-04-05 01:25:18,188 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:18] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:18,213 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:18,224 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796518.json.bak
+2025-04-05 01:25:19,178 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.96 seconds
+2025-04-05 01:25:19,178 - INFO - __main__ - Added 100 documents in 0.97 seconds
+2025-04-05 01:25:19,178 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:19] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:19,200 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:19,210 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796519.json.bak
+2025-04-05 01:25:20,175 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.97 seconds
+2025-04-05 01:25:20,175 - INFO - __main__ - Added 100 documents in 0.98 seconds
+2025-04-05 01:25:20,175 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:20] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:20,198 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:20,206 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796520.json.bak
+2025-04-05 01:25:21,187 - INFO - __main__ - Database saved to vector_db_data/documents.json in 0.99 seconds
+2025-04-05 01:25:21,187 - INFO - __main__ - Added 100 documents in 1.00 seconds
+2025-04-05 01:25:21,187 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:21] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:21,221 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:21,233 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796521.json.bak
+2025-04-05 01:25:22,234 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.01 seconds
+2025-04-05 01:25:22,234 - INFO - __main__ - Added 100 documents in 1.02 seconds
+2025-04-05 01:25:22,234 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:22] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:22,255 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:22,265 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796522.json.bak
+2025-04-05 01:25:23,272 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.02 seconds
+2025-04-05 01:25:23,272 - INFO - __main__ - Added 100 documents in 1.02 seconds
+2025-04-05 01:25:23,272 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:23] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:23,300 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:23,328 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796523.json.bak
+2025-04-05 01:25:24,389 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.09 seconds
+2025-04-05 01:25:24,389 - INFO - __main__ - Added 100 documents in 1.10 seconds
+2025-04-05 01:25:24,389 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:24] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:24,412 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:24,423 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796524.json.bak
+2025-04-05 01:25:25,501 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.09 seconds
+2025-04-05 01:25:25,501 - INFO - __main__ - Added 100 documents in 1.10 seconds
+2025-04-05 01:25:25,501 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:25] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:25,521 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:25,531 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796525.json.bak
+2025-04-05 01:25:26,601 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.08 seconds
+2025-04-05 01:25:26,601 - INFO - __main__ - Added 100 documents in 1.09 seconds
+2025-04-05 01:25:26,601 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:26] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:26,622 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:26,633 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796526.json.bak
+2025-04-05 01:25:27,722 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.10 seconds
+2025-04-05 01:25:27,722 - INFO - __main__ - Added 100 documents in 1.11 seconds
+2025-04-05 01:25:27,723 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:27] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:27,743 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:27,754 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796527.json.bak
+2025-04-05 01:25:28,892 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.15 seconds
+2025-04-05 01:25:28,892 - INFO - __main__ - Added 100 documents in 1.16 seconds
+2025-04-05 01:25:28,892 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:28] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:28,914 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:28,924 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796528.json.bak
+2025-04-05 01:25:30,086 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.17 seconds
+2025-04-05 01:25:30,086 - INFO - __main__ - Added 100 documents in 1.18 seconds
+2025-04-05 01:25:30,086 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:30] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:30,109 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:30,122 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796530.json.bak
+2025-04-05 01:25:31,293 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.18 seconds
+2025-04-05 01:25:31,293 - INFO - __main__ - Added 100 documents in 1.19 seconds
+2025-04-05 01:25:31,293 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:31] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:31,314 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:31,325 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796531.json.bak
+2025-04-05 01:25:32,516 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.20 seconds
+2025-04-05 01:25:32,516 - INFO - __main__ - Added 100 documents in 1.21 seconds
+2025-04-05 01:25:32,516 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:32] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:32,537 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:32,547 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796532.json.bak
+2025-04-05 01:25:33,745 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.21 seconds
+2025-04-05 01:25:33,745 - INFO - __main__ - Added 100 documents in 1.22 seconds
+2025-04-05 01:25:33,746 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:33] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:33,769 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:33,781 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796533.json.bak
+2025-04-05 01:25:35,037 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.27 seconds
+2025-04-05 01:25:35,037 - INFO - __main__ - Added 100 documents in 1.28 seconds
+2025-04-05 01:25:35,038 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:35] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:35,060 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:35,072 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796535.json.bak
+2025-04-05 01:25:36,334 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.27 seconds
+2025-04-05 01:25:36,334 - INFO - __main__ - Added 100 documents in 1.28 seconds
+2025-04-05 01:25:36,334 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:36] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:36,356 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:36,374 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796536.json.bak
+2025-04-05 01:25:37,630 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.27 seconds
+2025-04-05 01:25:37,631 - INFO - __main__ - Added 100 documents in 1.28 seconds
+2025-04-05 01:25:37,631 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:37] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:37,653 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:37,664 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796537.json.bak
+2025-04-05 01:25:38,973 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.32 seconds
+2025-04-05 01:25:38,973 - INFO - __main__ - Added 100 documents in 1.33 seconds
+2025-04-05 01:25:38,973 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:38] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:38,996 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:39,017 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796538.json.bak
+2025-04-05 01:25:40,399 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.40 seconds
+2025-04-05 01:25:40,399 - INFO - __main__ - Added 100 documents in 1.41 seconds
+2025-04-05 01:25:40,399 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:40] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:40,423 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:40,438 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796540.json.bak
+2025-04-05 01:25:41,774 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.35 seconds
+2025-04-05 01:25:41,774 - INFO - __main__ - Added 100 documents in 1.36 seconds
+2025-04-05 01:25:41,774 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:41] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:41,797 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:41,815 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796541.json.bak
+2025-04-05 01:25:43,171 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.37 seconds
+2025-04-05 01:25:43,171 - INFO - __main__ - Added 100 documents in 1.38 seconds
+2025-04-05 01:25:43,172 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:43] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:43,192 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:43,206 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796543.json.bak
+2025-04-05 01:25:44,997 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.80 seconds
+2025-04-05 01:25:44,997 - INFO - __main__ - Added 100 documents in 1.81 seconds
+2025-04-05 01:25:44,998 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:44] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:45,039 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:45,053 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796545.json.bak
+2025-04-05 01:25:46,582 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.54 seconds
+2025-04-05 01:25:46,582 - INFO - __main__ - Added 100 documents in 1.55 seconds
+2025-04-05 01:25:46,583 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:46] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:46,604 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:46,629 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796546.json.bak
+2025-04-05 01:25:48,061 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.46 seconds
+2025-04-05 01:25:48,062 - INFO - __main__ - Added 100 documents in 1.46 seconds
+2025-04-05 01:25:48,062 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:48] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:48,083 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:48,107 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796548.json.bak
+2025-04-05 01:25:49,547 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.46 seconds
+2025-04-05 01:25:49,547 - INFO - __main__ - Added 100 documents in 1.47 seconds
+2025-04-05 01:25:49,547 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:49] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:49,569 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:25:49,587 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796549.json.bak
+2025-04-05 01:25:51,083 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.51 seconds
+2025-04-05 01:25:51,083 - INFO - __main__ - Added 100 documents in 1.52 seconds
+2025-04-05 01:25:51,083 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:51] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:51,108 - INFO - __main__ - Received request to add 86 documents
+2025-04-05 01:25:51,130 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796551.json.bak
+2025-04-05 01:25:52,603 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.49 seconds
+2025-04-05 01:25:52,603 - INFO - __main__ - Added 86 documents in 1.50 seconds
+2025-04-05 01:25:52,603 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:52] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:25:56,157 - INFO - __main__ - Generated stats in 0.00 seconds
+2025-04-05 01:25:56,158 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:25:56] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:26:00,035 - INFO - __main__ - Calculating similarities for 6929 documents
+2025-04-05 01:26:00,057 - INFO - __main__ - Similarity calculation completed in 0.02 seconds
+2025-04-05 01:26:00,058 - INFO - __main__ - Query returned 5 results in 0.02 seconds
+2025-04-05 01:26:00,058 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:26:00] "POST /query HTTP/1.1" 200 -
+2025-04-05 01:26:00,529 - INFO - __main__ - Generated stats in 0.01 seconds
+2025-04-05 01:26:00,529 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:26:00] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:29:02,560 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:29:02] "GET /health HTTP/1.1" 200 -
+2025-04-05 01:29:13,890 - INFO - __main__ - Generated stats in 0.01 seconds
+2025-04-05 01:29:13,934 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:29:13] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:30:50,843 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:30:50,964 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796850.json.bak
+2025-04-05 01:30:53,649 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.79 seconds
+2025-04-05 01:30:53,649 - INFO - __main__ - Added 100 documents in 2.88 seconds
+2025-04-05 01:30:53,651 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:30:53] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:30:53,688 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:30:53,711 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796853.json.bak
+2025-04-05 01:30:55,327 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.64 seconds
+2025-04-05 01:30:55,327 - INFO - __main__ - Added 100 documents in 1.65 seconds
+2025-04-05 01:30:55,327 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:30:55] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:30:55,357 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:30:55,382 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796855.json.bak
+2025-04-05 01:30:56,929 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.57 seconds
+2025-04-05 01:30:56,930 - INFO - __main__ - Added 100 documents in 1.59 seconds
+2025-04-05 01:30:56,930 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:30:56] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:30:56,952 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:30:56,967 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796856.json.bak
+2025-04-05 01:30:58,654 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.70 seconds
+2025-04-05 01:30:58,654 - INFO - __main__ - Added 100 documents in 1.71 seconds
+2025-04-05 01:30:58,655 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:30:58] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:30:58,677 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:30:58,699 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796858.json.bak
+2025-04-05 01:31:00,318 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.64 seconds
+2025-04-05 01:31:00,318 - INFO - __main__ - Added 100 documents in 1.65 seconds
+2025-04-05 01:31:00,318 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:00] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:00,340 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:00,373 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796860.json.bak
+2025-04-05 01:31:01,968 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.63 seconds
+2025-04-05 01:31:01,968 - INFO - __main__ - Added 100 documents in 1.64 seconds
+2025-04-05 01:31:01,968 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:01] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:01,989 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:02,005 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796861.json.bak
+2025-04-05 01:31:03,666 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.68 seconds
+2025-04-05 01:31:03,666 - INFO - __main__ - Added 100 documents in 1.68 seconds
+2025-04-05 01:31:03,666 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:03] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:03,687 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:03,705 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796863.json.bak
+2025-04-05 01:31:05,373 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.68 seconds
+2025-04-05 01:31:05,373 - INFO - __main__ - Added 100 documents in 1.69 seconds
+2025-04-05 01:31:05,374 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:05] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:05,400 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:05,423 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796865.json.bak
+2025-04-05 01:31:07,093 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.69 seconds
+2025-04-05 01:31:07,093 - INFO - __main__ - Added 100 documents in 1.70 seconds
+2025-04-05 01:31:07,093 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:07] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:07,115 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:07,132 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796867.json.bak
+2025-04-05 01:31:11,882 - INFO - __main__ - Database saved to vector_db_data/documents.json in 4.77 seconds
+2025-04-05 01:31:11,882 - INFO - __main__ - Added 100 documents in 4.77 seconds
+2025-04-05 01:31:11,884 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:11] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:11,948 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:11,987 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796871.json.bak
+2025-04-05 01:31:17,500 - INFO - __main__ - Database saved to vector_db_data/documents.json in 5.55 seconds
+2025-04-05 01:31:17,501 - INFO - __main__ - Added 100 documents in 5.57 seconds
+2025-04-05 01:31:17,502 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:17] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:17,581 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:17,665 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796877.json.bak
+2025-04-05 01:31:20,681 - INFO - __main__ - Database saved to vector_db_data/documents.json in 3.10 seconds
+2025-04-05 01:31:20,681 - INFO - __main__ - Added 100 documents in 3.13 seconds
+2025-04-05 01:31:20,681 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:20] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:20,705 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:20,751 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796880.json.bak
+2025-04-05 01:31:22,521 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.82 seconds
+2025-04-05 01:31:22,522 - INFO - __main__ - Added 100 documents in 1.82 seconds
+2025-04-05 01:31:22,522 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:22] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:22,553 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:22,570 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796882.json.bak
+2025-04-05 01:31:24,371 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.82 seconds
+2025-04-05 01:31:24,372 - INFO - __main__ - Added 100 documents in 1.83 seconds
+2025-04-05 01:31:24,372 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:24] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:24,394 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:24,420 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796884.json.bak
+2025-04-05 01:31:26,233 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.84 seconds
+2025-04-05 01:31:26,233 - INFO - __main__ - Added 100 documents in 1.85 seconds
+2025-04-05 01:31:26,234 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:26] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:26,256 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:26,276 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796886.json.bak
+2025-04-05 01:31:28,093 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.84 seconds
+2025-04-05 01:31:28,093 - INFO - __main__ - Added 100 documents in 1.85 seconds
+2025-04-05 01:31:28,095 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:28] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:28,157 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:28,174 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796888.json.bak
+2025-04-05 01:31:30,128 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.97 seconds
+2025-04-05 01:31:30,128 - INFO - __main__ - Added 100 documents in 1.98 seconds
+2025-04-05 01:31:30,129 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:30] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:30,153 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:30,174 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796890.json.bak
+2025-04-05 01:31:32,044 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.89 seconds
+2025-04-05 01:31:32,044 - INFO - __main__ - Added 100 documents in 1.90 seconds
+2025-04-05 01:31:32,044 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:32] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:32,066 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:32,086 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796892.json.bak
+2025-04-05 01:31:33,989 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.92 seconds
+2025-04-05 01:31:33,989 - INFO - __main__ - Added 100 documents in 1.93 seconds
+2025-04-05 01:31:33,990 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:33] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:34,012 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:34,032 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796894.json.bak
+2025-04-05 01:31:35,980 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.97 seconds
+2025-04-05 01:31:35,980 - INFO - __main__ - Added 100 documents in 1.98 seconds
+2025-04-05 01:31:35,980 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:35] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:36,007 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:36,028 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796896.json.bak
+2025-04-05 01:31:37,972 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.96 seconds
+2025-04-05 01:31:37,973 - INFO - __main__ - Added 100 documents in 1.97 seconds
+2025-04-05 01:31:37,973 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:37] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:37,995 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:38,011 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796897.json.bak
+2025-04-05 01:31:40,000 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.00 seconds
+2025-04-05 01:31:40,000 - INFO - __main__ - Added 100 documents in 2.01 seconds
+2025-04-05 01:31:40,000 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:40] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:40,024 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:40,044 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796900.json.bak
+2025-04-05 01:31:42,018 - INFO - __main__ - Database saved to vector_db_data/documents.json in 1.99 seconds
+2025-04-05 01:31:42,018 - INFO - __main__ - Added 100 documents in 2.00 seconds
+2025-04-05 01:31:42,018 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:42] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:42,043 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:42,068 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796902.json.bak
+2025-04-05 01:31:44,399 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.36 seconds
+2025-04-05 01:31:44,399 - INFO - __main__ - Added 100 documents in 2.36 seconds
+2025-04-05 01:31:44,400 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:44] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:44,468 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:44,491 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796904.json.bak
+2025-04-05 01:31:46,662 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.19 seconds
+2025-04-05 01:31:46,662 - INFO - __main__ - Added 100 documents in 2.21 seconds
+2025-04-05 01:31:46,662 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:46] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:46,684 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:46,723 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796906.json.bak
+2025-04-05 01:31:48,744 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.06 seconds
+2025-04-05 01:31:48,744 - INFO - __main__ - Added 100 documents in 2.07 seconds
+2025-04-05 01:31:48,744 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:48] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:48,766 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:48,817 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796908.json.bak
+2025-04-05 01:31:50,966 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.20 seconds
+2025-04-05 01:31:50,966 - INFO - __main__ - Added 100 documents in 2.21 seconds
+2025-04-05 01:31:50,966 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:50] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:50,999 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:51,021 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796911.json.bak
+2025-04-05 01:31:53,089 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.09 seconds
+2025-04-05 01:31:53,089 - INFO - __main__ - Added 100 documents in 2.10 seconds
+2025-04-05 01:31:53,089 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:53] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:53,114 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:53,142 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796913.json.bak
+2025-04-05 01:31:55,268 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.15 seconds
+2025-04-05 01:31:55,268 - INFO - __main__ - Added 100 documents in 2.16 seconds
+2025-04-05 01:31:55,268 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:55] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:55,297 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:55,316 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796915.json.bak
+2025-04-05 01:31:57,566 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.27 seconds
+2025-04-05 01:31:57,566 - INFO - __main__ - Added 100 documents in 2.28 seconds
+2025-04-05 01:31:57,567 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:57,588 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:57,611 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796917.json.bak
+2025-04-05 01:31:59,824 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.23 seconds
+2025-04-05 01:31:59,824 - INFO - __main__ - Added 100 documents in 2.24 seconds
+2025-04-05 01:31:59,824 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:31:59] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:31:59,848 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:31:59,875 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796919.json.bak
+2025-04-05 01:32:02,062 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.21 seconds
+2025-04-05 01:32:02,062 - INFO - __main__ - Added 100 documents in 2.22 seconds
+2025-04-05 01:32:02,062 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:02] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:02,090 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:02,118 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796922.json.bak
+2025-04-05 01:32:04,282 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.19 seconds
+2025-04-05 01:32:04,282 - INFO - __main__ - Added 100 documents in 2.20 seconds
+2025-04-05 01:32:04,282 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:04] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:04,304 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:04,325 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796924.json.bak
+2025-04-05 01:32:06,600 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.30 seconds
+2025-04-05 01:32:06,601 - INFO - __main__ - Added 100 documents in 2.30 seconds
+2025-04-05 01:32:06,601 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:06] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:06,627 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:06,652 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796926.json.bak
+2025-04-05 01:32:08,861 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.23 seconds
+2025-04-05 01:32:08,861 - INFO - __main__ - Added 100 documents in 2.24 seconds
+2025-04-05 01:32:08,861 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:08] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:08,881 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:08,903 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796928.json.bak
+2025-04-05 01:32:11,187 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.30 seconds
+2025-04-05 01:32:11,187 - INFO - __main__ - Added 100 documents in 2.31 seconds
+2025-04-05 01:32:11,187 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:11] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:11,209 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:11,257 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796931.json.bak
+2025-04-05 01:32:13,522 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.31 seconds
+2025-04-05 01:32:13,522 - INFO - __main__ - Added 100 documents in 2.32 seconds
+2025-04-05 01:32:13,523 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:13] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:13,545 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:13,573 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796933.json.bak
+2025-04-05 01:32:15,887 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.34 seconds
+2025-04-05 01:32:15,888 - INFO - __main__ - Added 100 documents in 2.35 seconds
+2025-04-05 01:32:15,888 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:15] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:15,912 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:15,934 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796935.json.bak
+2025-04-05 01:32:18,250 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.34 seconds
+2025-04-05 01:32:18,250 - INFO - __main__ - Added 100 documents in 2.35 seconds
+2025-04-05 01:32:18,251 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:18] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:18,273 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:18,300 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796938.json.bak
+2025-04-05 01:32:20,743 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.47 seconds
+2025-04-05 01:32:20,743 - INFO - __main__ - Added 100 documents in 2.48 seconds
+2025-04-05 01:32:20,743 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:20] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:20,771 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:20,797 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796940.json.bak
+2025-04-05 01:32:23,527 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.75 seconds
+2025-04-05 01:32:23,527 - INFO - __main__ - Added 100 documents in 2.76 seconds
+2025-04-05 01:32:23,527 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:23] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:23,549 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:23,570 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796943.json.bak
+2025-04-05 01:32:26,141 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.59 seconds
+2025-04-05 01:32:26,141 - INFO - __main__ - Added 100 documents in 2.60 seconds
+2025-04-05 01:32:26,142 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:26] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:26,168 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:26,196 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796946.json.bak
+2025-04-05 01:32:28,594 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.43 seconds
+2025-04-05 01:32:28,594 - INFO - __main__ - Added 100 documents in 2.43 seconds
+2025-04-05 01:32:28,594 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:28] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:28,616 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:28,639 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796948.json.bak
+2025-04-05 01:32:31,056 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.44 seconds
+2025-04-05 01:32:31,056 - INFO - __main__ - Added 100 documents in 2.45 seconds
+2025-04-05 01:32:31,056 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:31] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:31,079 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:31,102 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796951.json.bak
+2025-04-05 01:32:35,781 - INFO - __main__ - Database saved to vector_db_data/documents.json in 4.70 seconds
+2025-04-05 01:32:35,782 - INFO - __main__ - Added 100 documents in 4.71 seconds
+2025-04-05 01:32:35,784 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:35] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:35,826 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:35,861 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796955.json.bak
+2025-04-05 01:32:38,493 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.67 seconds
+2025-04-05 01:32:38,493 - INFO - __main__ - Added 100 documents in 2.68 seconds
+2025-04-05 01:32:38,494 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:38] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:38,515 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:38,542 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796958.json.bak
+2025-04-05 01:32:41,071 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.55 seconds
+2025-04-05 01:32:41,071 - INFO - __main__ - Added 100 documents in 2.56 seconds
+2025-04-05 01:32:41,071 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:41] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:41,112 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:41,141 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796961.json.bak
+2025-04-05 01:32:43,671 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.56 seconds
+2025-04-05 01:32:43,671 - INFO - __main__ - Added 100 documents in 2.59 seconds
+2025-04-05 01:32:43,672 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:43] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:43,694 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:43,719 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796963.json.bak
+2025-04-05 01:32:46,662 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.97 seconds
+2025-04-05 01:32:46,662 - INFO - __main__ - Added 100 documents in 2.98 seconds
+2025-04-05 01:32:46,663 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:46] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:46,694 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:46,730 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796966.json.bak
+2025-04-05 01:32:49,276 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.58 seconds
+2025-04-05 01:32:49,277 - INFO - __main__ - Added 100 documents in 2.59 seconds
+2025-04-05 01:32:49,277 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:49] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:49,300 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:49,324 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796969.json.bak
+2025-04-05 01:32:51,959 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.66 seconds
+2025-04-05 01:32:51,959 - INFO - __main__ - Added 100 documents in 2.67 seconds
+2025-04-05 01:32:51,959 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:51] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:51,982 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:52,020 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796971.json.bak
+2025-04-05 01:32:54,615 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.63 seconds
+2025-04-05 01:32:54,615 - INFO - __main__ - Added 100 documents in 2.64 seconds
+2025-04-05 01:32:54,615 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:54] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:54,644 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:54,689 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796974.json.bak
+2025-04-05 01:32:57,323 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.68 seconds
+2025-04-05 01:32:57,323 - INFO - __main__ - Added 100 documents in 2.69 seconds
+2025-04-05 01:32:57,323 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:32:57] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:32:57,347 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:32:57,388 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796977.json.bak
+2025-04-05 01:33:00,024 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.68 seconds
+2025-04-05 01:33:00,024 - INFO - __main__ - Added 100 documents in 2.68 seconds
+2025-04-05 01:33:00,024 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:00] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:00,048 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:00,083 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796980.json.bak
+2025-04-05 01:33:02,795 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.75 seconds
+2025-04-05 01:33:02,795 - INFO - __main__ - Added 100 documents in 2.75 seconds
+2025-04-05 01:33:02,796 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:02] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:02,825 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:02,852 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796982.json.bak
+2025-04-05 01:33:05,500 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.67 seconds
+2025-04-05 01:33:05,500 - INFO - __main__ - Added 100 documents in 2.68 seconds
+2025-04-05 01:33:05,500 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:05] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:05,524 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:05,553 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796985.json.bak
+2025-04-05 01:33:08,347 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.82 seconds
+2025-04-05 01:33:08,347 - INFO - __main__ - Added 100 documents in 2.83 seconds
+2025-04-05 01:33:08,347 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:08] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:08,372 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:08,414 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796988.json.bak
+2025-04-05 01:33:11,131 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.76 seconds
+2025-04-05 01:33:11,131 - INFO - __main__ - Added 100 documents in 2.77 seconds
+2025-04-05 01:33:11,131 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:11] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:11,154 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:11,181 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796991.json.bak
+2025-04-05 01:33:14,002 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.85 seconds
+2025-04-05 01:33:14,002 - INFO - __main__ - Added 100 documents in 2.86 seconds
+2025-04-05 01:33:14,003 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:14] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:14,026 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:14,056 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796994.json.bak
+2025-04-05 01:33:16,870 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.84 seconds
+2025-04-05 01:33:16,870 - INFO - __main__ - Added 100 documents in 2.85 seconds
+2025-04-05 01:33:16,871 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:16] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:16,895 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:16,930 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796996.json.bak
+2025-04-05 01:33:19,730 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.83 seconds
+2025-04-05 01:33:19,730 - INFO - __main__ - Added 100 documents in 2.84 seconds
+2025-04-05 01:33:19,730 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:19] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:19,753 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:19,780 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743796999.json.bak
+2025-04-05 01:33:22,827 - INFO - __main__ - Database saved to vector_db_data/documents.json in 3.07 seconds
+2025-04-05 01:33:22,827 - INFO - __main__ - Added 100 documents in 3.08 seconds
+2025-04-05 01:33:22,828 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:22] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:22,860 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:22,890 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743797002.json.bak
+2025-04-05 01:33:25,911 - INFO - __main__ - Database saved to vector_db_data/documents.json in 3.05 seconds
+2025-04-05 01:33:25,911 - INFO - __main__ - Added 100 documents in 3.06 seconds
+2025-04-05 01:33:25,912 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:25] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:25,934 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:25,971 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743797005.json.bak
+2025-04-05 01:33:28,924 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.99 seconds
+2025-04-05 01:33:28,924 - INFO - __main__ - Added 100 documents in 3.00 seconds
+2025-04-05 01:33:28,924 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:28] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:28,950 - INFO - __main__ - Received request to add 100 documents
+2025-04-05 01:33:28,977 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743797008.json.bak
+2025-04-05 01:33:31,848 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.90 seconds
+2025-04-05 01:33:31,848 - INFO - __main__ - Added 100 documents in 2.91 seconds
+2025-04-05 01:33:31,848 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:31] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:31,868 - INFO - __main__ - Received request to add 86 documents
+2025-04-05 01:33:31,893 - INFO - __main__ - Created backup at vector_db_data/backups/documents_1743797011.json.bak
+2025-04-05 01:33:34,825 - INFO - __main__ - Database saved to vector_db_data/documents.json in 2.96 seconds
+2025-04-05 01:33:34,825 - INFO - __main__ - Added 86 documents in 2.96 seconds
+2025-04-05 01:33:34,825 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:34] "POST /add_documents HTTP/1.1" 200 -
+2025-04-05 01:33:38,831 - INFO - __main__ - Generated stats in 0.01 seconds
+2025-04-05 01:33:38,832 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:38] "GET /stats HTTP/1.1" 200 -
+2025-04-05 01:33:43,023 - INFO - __main__ - Calculating similarities for 13515 documents
+2025-04-05 01:33:43,128 - INFO - __main__ - Similarity calculation completed in 0.11 seconds
+2025-04-05 01:33:43,131 - INFO - __main__ - Query returned 5 results in 0.11 seconds
+2025-04-05 01:33:43,131 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:43] "POST /query HTTP/1.1" 200 -
+2025-04-05 01:33:43,595 - INFO - __main__ - Generated stats in 0.00 seconds
+2025-04-05 01:33:43,596 - INFO - werkzeug - 127.0.0.1 - - [05/Apr/2025 01:33:43] "GET /stats HTTP/1.1" 200 -

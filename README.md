@@ -92,6 +92,42 @@ python repo_to_vector.py --repo-url https://github.com/username/repository --api
 python query_vector_db.py --query "search query" --api-url http://127.0.0.1:5000
 ```
 
+## Example Queries and Time Estimation
+
+For a comprehensive list of example queries and how to use the vector database effectively, see [example_queries.md](example_queries.md). This includes queries for:
+
+- Estimating implementation time for features
+- Finding technical requirements
+- Identifying dependencies
+- Locating similar features
+- Finding code examples
+- Identifying potential challenges
+
+### Implementation Time Estimation
+
+This project includes tools to help estimate implementation time for new features based on the repository context:
+
+- [time_estimation_guide.md](time_estimation_guide.md): A detailed guide on how to use the vector database with LLMs to generate accurate time estimates
+- [estimate_time.py](estimate_time.py): A script that automates the process of generating implementation time estimates
+
+To estimate implementation time for a feature:
+
+```bash
+# 1. Convert a repository to vector database
+./run_vector_db.py convert --repo-url <github_repo_url>
+
+# 2. Create a function documentation file
+echo "Implement user authentication with OAuth and 2FA" > function_doc.txt
+
+# 3. Query the vector database
+./run_vector_db.py query --query "$(cat function_doc.txt)" --top-k 10 > vector_results.txt
+
+# 4. Generate time estimate
+./estimate_time.py --function-doc function_doc.txt --vector-results vector_results.txt --output time_estimate_report.md
+```
+
+This will generate a detailed time estimate report based on the repository context and the function documentation.
+
 ## How It Works
 
 1. The script clones the specified GitHub repository
