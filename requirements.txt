@@ -1,0 +1,6 @@
+gitpython>=3.1.30
+requests>=2.28.2
+sentence-transformers>=2.2.2
+argparse>=1.4.0
+flask>=2.0.0
+numpy>=1.20.0
